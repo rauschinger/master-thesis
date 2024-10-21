@@ -1,0 +1,60 @@
+
+Adjacency Matrix:
+0 1 0 1 0 0 0 
+1 0 1 0 1 0 0 
+0 1 0 0 1 1 0 
+1 0 0 0 1 0 1 
+0 1 1 1 0 0 0 
+0 0 1 0 0 0 1 
+0 0 0 1 0 1 0 
+
+Vectors:
+C:
+[22058, 22058, 22058, 22058, 22058, 22058, 22058]
+weight:
+[22058, 22058, 22058, 22058, 22058, 22058, 22058]
+frontier:
+[22058, 22058, 22058, 22058, 22058, 22058, 22058]
+
+Colors initialized to 0:
+[0, 0, 0, 0, 0, 0, 0]
+weight with random values:
+[86, 14, 22, 69, 99, 79, 73]
+max:
+[69, 99, 99, 99, 69, 73, 79]
+frontier after Greater Than operation:
+[1, 0, 0, 0, 1, 1, 0]
+succ: 3
+C after iteration:
+[1, 0, 0, 0, 1, 1, 0]
+
+weight after iteration:
+[0, 14, 22, 69, 0, 0, 73]
+max:
+[69, 22, 14, 73, 69, 73, 69]
+frontier after Greater Than operation:
+[0, 0, 1, 0, 0, 0, 1]
+succ: 2
+C after iteration:
+[1, 0, 2, 0, 1, 1, 2]
+
+weight after iteration:
+[0, 14, 0, 69, 0, 0, 0]
+max:
+[69, 0, 14, 0, 69, 0, 69]
+frontier after Greater Than operation:
+[0, 1, 0, 1, 0, 0, 0]
+succ: 2
+C after iteration:
+[1, 3, 2, 3, 1, 1, 2]
+
+weight after iteration:
+[0, 0, 0, 0, 0, 0, 0]
+max:
+[0, 0, 0, 0, 0, 0, 0]
+frontier after Greater Than operation:
+[0, 0, 0, 0, 0, 0, 0]
+succ: 0
+
+d1-coloring:
+[1, 3, 2, 3, 1, 1, 2]

@@ -1,0 +1,100 @@
+Adjacency matrix:
+0 0 0 0 0 0 0 1 
+0 0 0 0 1 0 0 0 
+0 0 0 0 1 1 0 1 
+0 0 0 0 1 0 1 0 
+0 1 1 1 0 0 0 0 
+0 0 1 0 0 0 0 0 
+0 0 0 1 0 0 0 0 
+1 0 1 0 0 0 0 0 
+
+Adjacency matrix square:
+1 0 1 0 0 0 0 0 
+0 1 1 1 0 0 0 0 
+1 1 3 1 0 0 0 0 
+0 1 1 2 0 0 0 0 
+0 0 0 0 3 1 1 1 
+0 0 0 0 1 1 0 1 
+0 0 0 0 1 0 1 0 
+0 0 0 0 1 1 0 2 
+
+Matrix with diagonal entries set to zero:
+0 0 1 0 0 0 0 0 
+0 0 1 1 0 0 0 0 
+1 1 0 1 0 0 0 0 
+0 1 1 0 0 0 0 0 
+0 0 0 0 0 1 1 1 
+0 0 0 0 1 0 0 1 
+0 0 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 
+
+Elements greater 1 set to 1:
+0 0 1 0 0 0 0 0 
+0 0 1 1 0 0 0 0 
+1 1 0 1 0 0 0 0 
+0 1 1 0 0 0 0 0 
+0 0 0 0 0 1 1 1 
+0 0 0 0 1 0 0 1 
+0 0 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 
+
+Adjacency matrix used for d1 coloring:
+0 0 1 0 0 0 0 0 
+0 0 1 1 0 0 0 0 
+1 1 0 1 0 0 0 0 
+0 1 1 0 0 0 0 0 
+0 0 0 0 0 1 1 1 
+0 0 0 0 1 0 0 1 
+0 0 0 0 1 0 0 0 
+0 0 0 0 1 1 0 0 
+
+Vectors:
+C:
+[22011, 22011, 22011, 22011, 22011, 22011, 22011, 22011]
+weight:
+[22011, 22011, 22011, 22011, 22011, 22011, 22011, 22011]
+frontier:
+[22011, 22011, 22011, 22011, 22011, 22011, 22011, 22011]
+
+Colors initialized to 0:
+[0, 0, 0, 0, 0, 0, 0, 0]
+weight with random values:
+[39, 21, 38, 77, 3, 32, 19, 82]
+max:
+[38, 77, 77, 38, 82, 82, 3, 32]
+frontier after Greater Than operation:
+[1, 0, 0, 1, 0, 0, 1, 1]
+succ: 4
+C after iteration:
+[1, 0, 0, 1, 0, 0, 1, 1]
+
+weight after iteration:
+[0, 21, 38, 0, 3, 32, 0, 0]
+max:
+[38, 38, 21, 38, 32, 3, 3, 32]
+frontier after Greater Than operation:
+[0, 0, 1, 0, 0, 1, 0, 0]
+succ: 2
+C after iteration:
+[1, 0, 2, 1, 0, 2, 1, 1]
+
+weight after iteration:
+[0, 21, 0, 0, 3, 0, 0, 0]
+max:
+[0, 0, 21, 21, 0, 3, 3, 3]
+frontier after Greater Than operation:
+[0, 1, 0, 0, 1, 0, 0, 0]
+succ: 2
+C after iteration:
+[1, 3, 2, 1, 3, 2, 1, 1]
+
+weight after iteration:
+[0, 0, 0, 0, 0, 0, 0, 0]
+max:
+[0, 0, 0, 0, 0, 0, 0, 0]
+frontier after Greater Than operation:
+[0, 0, 0, 0, 0, 0, 0, 0]
+succ: 0
+
+d1-coloring:
+[1, 3, 2, 1, 3, 2, 1, 1]
